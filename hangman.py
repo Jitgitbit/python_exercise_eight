@@ -1,0 +1,5 @@
+name = input("Please enter your name here: ")
+print("Welcome" , name)
+print("-------------------")
+print("Try to guess the word in less than 10 attempts!")
+print()

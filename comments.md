@@ -15,5 +15,5 @@ git add .
 git commit -m 'third'
 gst
 
-python3 dictionary.py
+python3 hangman.py
 and so on...
