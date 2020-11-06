@@ -1,7 +1,7 @@
 import random
 
 def hangman():
-	word = random.choice(["Venus", "Mars", "Batman", "Pluto", "Moon", "Earth", "Jupiter"])
+	word = random.choice(["Venus", "Mars", "Batman", "Pluto", "Moon", "Earth", "Jupiter", "foolish", "retarded", "eloquent", "morbide", "uplifting"])
 	validLetters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 	turns = 10
 	guessMade = ''
@@ -14,13 +14,13 @@ def hangman():
 			if letter in guessMade:
 				main = main + letter
 			else:
-				main = main + "_" + ""
+				main = main + "_" + " "
 
 		if main == word:
 			print(main)
 			print("You have won this game!")
 			break
-		
+
 		print("Guess the word: ", main)
 		guess = input()
 
